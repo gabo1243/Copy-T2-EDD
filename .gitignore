@@ -1,0 +1,34 @@
+# Programas
+/find_sequences
+/organizer
+/patterns
+
+# Ignorar arhivos de prueba
+/tests
+/tests copy
+/output
+*.txt
+*.diff
+*.json
+
+# Solo incluir informe como /informe.pdf
+*.pdf
+!/informe.pdf
+*.zip
+
+# Miscelanea
+!.devcontainer/devcontainer.json
+.edd-cache
+__pycache__/
+.py[co]
+*Zone.Identifier
+/.ccls-cache/
+/.direnv/
+/bin
+/obj
+.vscode
+.DS_Store
+
+run.sh
+run2.sh
+run3.sh
